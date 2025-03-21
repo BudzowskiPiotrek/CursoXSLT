@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Persona.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<personas>
+    <persona id="12345">
+        <nombre>Juan Pérez</nombre>
+        <edad>30</edad>
+        <direccion tipo="Calle">Av. Siempre Viva 742</direccion>
+        <telefono>+34 600 123 456</telefono>
+    </persona>
+    <persona id="67890">
+        <nombre>María López</nombre>
+        <edad>25</edad>
+        <direccion tipo="Avenida">Gran Vía 123</direccion>
+        <telefono>+34 700 987 654</telefono>
+    </persona>
+</personas>
+
+<!-- Restricción: La edad debe estar entre 18 y 65 años -->
