@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Producto.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<catalogo>
+    <producto id="1">
+        <nombre>Portátil</nombre>
+        <marca>Lenovo</marca>
+        <precio moneda="USD">800</precio>
+        <stock>15</stock>
+    </producto>
+    <producto id="2">
+        <nombre>Teléfono</nombre>
+        <marca>Samsung</marca>
+        <precio moneda="USD">600</precio>
+        <stock>30</stock>
+    </producto>
+    <producto id="3">
+        <nombre>Tablet</nombre>
+        <marca>Apple</marca>
+        <precio moneda="USD">1000</precio>
+        <stock>10</stock>
+    </producto>
+</catalogo>
