@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Vehiculos.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<vehiculos>
+    <vehiculo tipo="sedan" usado="no">
+        <marca>Toyota</marca>
+        <modelo>Corolla</modelo>
+        <anio>2022</anio>
+        <color>Rojo</color>
+        <precio>25000</precio>
+    </vehiculo>
+    <vehiculo tipo="hatchback" usado="si">
+        <marca>Honda</marca>
+        <modelo>Civic</modelo>
+        <anio>2018</anio>
+        <color>Azul</color>
+        <precio>18000</precio>
+    </vehiculo>
+</vehiculos>
+
+<!-- Restricciones sugeridas para el esquema XSD:
+1. El atributo "usado" debe ser "si" o "no".
+2. El año ("anio") debe ser un numero entre 1900 y el año actual.
+3. El precio debe ser un numero positivo mayor a 0.
+4. La marca y el modelo deben ser cadenas de texto sin numeros.
+5. El color debe ser una cadena de texto de entre 3 y 20 caracteres.
+-->
