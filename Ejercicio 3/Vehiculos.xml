@@ -24,3 +24,11 @@
 4. La marca y el modelo deben ser cadenas de texto sin numeros.
 5. El color debe ser una cadena de texto de entre 3 y 20 caracteres.
 -->
+
+<!-- Requisitos para la transformación XSLT:
+1. Convertir el XML a formato HTML con una tabla que muestre los datos de cada vehiculo.
+2. Agregar un encabezado en la tabla con los nombres de las columnas (Marca, Modelo, Año, Color, Precio, Tipo, Usado).
+3. Aplicar estilos CSS para mejorar la apariencia de la tabla.
+4. Resaltar en color rojo los precios mayores a 20,000.
+5. Mostrar un mensaje adicional si el vehiculo es usado ("Vehiculo de segunda mano").
+-->
