@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Animales.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<animales>
+    <habitat nombre="Selva">
+        <animal tipo="mamífero" en_peligro="si">
+            <nombre>Jaguar</nombre>
+            <nombre_cientifico>Panthera onca</nombre_cientifico>
+            <alimentacion>Carnívoro</alimentacion>
+            <tamanio>Grande</tamanio>
+            <esperanza_vida>12</esperanza_vida>
+            <poblacion>2000</poblacion>
+        </animal>
+        <animal tipo="reptil" en_peligro="no">
+            <nombre>Boa constrictora</nombre>
+            <nombre_cientifico>Boa constrictor</nombre_cientifico>
+            <alimentacion>Carnívoro</alimentacion>
+            <tamanio>Mediano</tamanio>
+            <esperanza_vida>20</esperanza_vida>
+            <poblacion>15000</poblacion>
+        </animal>
+    </habitat>
+    <habitat nombre="Desierto">
+        <animal tipo="mamífero" en_peligro="no">
+            <nombre>Zorro del desierto</nombre>
+            <nombre_cientifico>Vulpes zerda</nombre_cientifico>
+            <alimentacion>Omnívoro</alimentacion>
+            <tamanio>Pequeño</tamanio>
+            <esperanza_vida>10</esperanza_vida>
+            <poblacion>8000</poblacion>
+        </animal>
+        <animal tipo="ave" en_peligro="si">
+            <nombre>Águila calva</nombre>
+            <nombre_cientifico>Haliaeetus leucocephalus</nombre_cientifico>
+            <alimentacion>Carnívoro</alimentacion>
+            <tamanio>Mediano</tamanio>
+            <esperanza_vida>30</esperanza_vida>
+            <poblacion>3000</poblacion>
+        </animal>
+    </habitat>
+</animales>
+
+<!-- Restricciones sugeridas para el esquema XSD:
+1. El atributo "en_peligro" debe ser "si" o "no".
+2. La esperanza de vida debe ser un número entre 1 y 100.
+3. La población debe ser un número entero mayor que 0.
+4. Los animales deben tener un nombre y un nombre científico sin números.
+5. El tamaño de los animales debe ser "Pequeño", "Mediano" o "Grande".
+-->
+
+<!--
+Tareas para XSLT:
+1. Crear una página HTML para visualizar la información de los animales.
+2. Organizar la información de los animales por hábitat.
+3. La página debe tener una tabla donde se muestren las siguientes columnas:
+   - Nombre (del animal)
+   - Nombre Científico
+   - Tipo de animal (mamífero, reptil, ave, etc.)
+   - Alimentación (carnívoro, omnívoro, etc.)
+   - Tamaño (pequeño, mediano, grande)
+   - Esperanza de vida (en años)
+   - Población (número de individuos en su hábitat)
+   - En peligro (sí/no)
+4. Los animales que estén en peligro (atributo en_peligro="si") deben aparecer resaltados en color rojo.
+5. La tabla debe tener un encabezado con los nombres de las columnas.
+6. Aplicar un estilo básico a la tabla utilizando CSS.
+7. Si el animal es en peligro, marcar su fila con un fondo de color rojo para destacarlo.
+--> 
