@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Plantas.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<plantas>
+    <categoria nombre="Interior">
+        <planta tipo="suculenta" perenne="si">
+            <nombre>Echeveria</nombre>
+            <nombre_cientifico>Echeveria elegans</nombre_cientifico>
+            <caracteristicas>
+                <riego>Moderado</riego>
+                <luz>Indirecta</luz>
+            </caracteristicas>
+            <precio>1500</precio>
+        </planta>
+        <planta tipo="tropical" perenne="no">
+            <nombre>Cuna de Moisés</nombre>
+            <nombre_cientifico>Spathiphyllum</nombre_cientifico>
+            <caracteristicas>
+                <riego>Frecuente</riego>
+                <luz>Media</luz>
+            </caracteristicas>
+            <precio>3000</precio>
+        </planta>
+    </categoria>
+    <categoria nombre="Exterior">
+        <planta tipo="arbusto" perenne="si">
+            <nombre>Lavanda</nombre>
+            <nombre_cientifico>Lavandula angustifolia</nombre_cientifico>
+            <caracteristicas>
+                <riego>Bajo</riego>
+                <luz>Pleno sol</luz>
+            </caracteristicas>
+            <precio>2500</precio>
+        </planta>
+        <planta tipo="flor" perenne="no">
+            <nombre>Rosa</nombre>
+            <nombre_cientifico>Rosa spp.</nombre_cientifico>
+            <caracteristicas>
+                <riego>Moderado</riego>
+                <luz>Pleno sol</luz>
+            </caracteristicas>
+            <precio>5000</precio>
+        </planta>
+    </categoria>
+</plantas>
+
+<!-- Restricciones sugeridas para el esquema XSD:
+1. El atributo "perenne" debe ser "si" o "no".
+2. El precio debe ser un número positivo mayor a 0.
+3. El nombre y el nombre científico deben ser cadenas de texto sin números.
+4. El tipo de riego y luz deben ser valores predefinidos (ejemplo: "Bajo", "Moderado", "Frecuente").
+-->
+
+<!-- Requisitos para la transformación XSLT:
+1. Convertir el XML a formato HTML con una tabla que muestre los datos de cada planta, organizada por categorías.
+2. Agregar un encabezado en la tabla con los nombres de las columnas (Nombre, Nombre Científico, Tipo, Perenne, Riego, Luz, Precio).
+3. Aplicar estilos CSS para mejorar la apariencia de la tabla.
+4. Resaltar en color verde los precios mayores a 3000.
+5. Mostrar un mensaje adicional si la planta es perenne ("Planta de larga duración").
+-->
