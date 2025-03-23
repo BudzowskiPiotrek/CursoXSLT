@@ -20,15 +20,15 @@
                     <xsl:for-each select="categoria/planta">
                         <tr>
                             <td>
-                                <xsl:value-of select="nombre" />
+                                <xsl:value-of select="nombre"/>
                             </td>
 
                             <td>
-                                <xsl:value-of select="nombre_cientifico" />
+                                <xsl:value-of select="nombre_cientifico"/>
                             </td>
 
                             <td>
-                                <xsl:value-of select="@tipo" />
+                                <xsl:value-of select="@tipo"/>
                             </td>
 
                             <td>
