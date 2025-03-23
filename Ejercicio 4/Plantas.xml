@@ -12,7 +12,7 @@
             <precio>1500</precio>
         </planta>
         <planta tipo="tropical" perenne="no">
-            <nombre>Cuna de Moisés</nombre>
+            <nombre>Cuna de Moises</nombre>
             <nombre_cientifico>Spathiphyllum</nombre_cientifico>
             <caracteristicas>
                 <riego>Frecuente</riego>
