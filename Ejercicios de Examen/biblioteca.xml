@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="biblioteca.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<biblioteca>
+    <libro id="1">
+        <categoria>informática</categoria>
+        <titulo>Introducción a Bases de Datos</titulo>
+        <autor>
+            <nombre>Juan Pérez</nombre>
+            <nacionalidad>España</nacionalidad>
+        </autor>
+        <editorial pais="España">Ediciones Tec</editorial>
+        <publicacion>
+            <año>2020</año>
+            <formato>impreso</formato>
+        </publicacion>
+    </libro>
+    <libro id="2">
+        <categoria>matemáticas</categoria>
+        <titulo>Álgebra Lineal</titulo>
+        <autor>
+            <nombre>María Gómez</nombre>
+            <nacionalidad>México</nacionalidad>
+        </autor>
+        <editorial pais="México">Ciencia Editorial</editorial>
+        <publicacion>
+            <año>2019</año>
+            <formato>digital</formato>
+        </publicacion>
+    </libro>
+    <libro id="3">
+        <categoria>literatura</categoria>
+        <titulo>El Quijote</titulo>
+        <autor>
+            <nombre>Miguel de Cervantes</nombre>
+            <nacionalidad>España</nacionalidad>
+        </autor>
+        <editorial pais="España">Clásicos Universales</editorial>
+        <publicacion>
+            <año>1605</año>
+            <formato>impreso</formato>
+        </publicacion>
+    </libro>
+</biblioteca>
